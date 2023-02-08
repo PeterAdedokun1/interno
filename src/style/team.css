@@ -1,0 +1,41 @@
+.team-container {
+  max-width: 1000px;
+  margin: 130px auto;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  column-gap: 20px;
+  text-align: center;
+}
+.team-container img {
+  border-radius: 25px;
+  width: 100%;
+}
+.team-img-container {
+  margin-bottom: 40px;
+}
+.team-text {
+  margin: 15px 0;
+}
+.team-text h3 {
+  color: #292f36;
+}
+.team-text p {
+  color: #4d5053;
+}
+.team-container-icon .team-icon {
+  margin-left: 20px;
+  cursor: pointer;
+
+  color: #292f36;
+}
+
+@media screen and (max-width: 600px) {
+  .team-container {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+@media screen and (max-width: 400px) {
+  .team-container {
+    grid-template-columns: repeat(1, 1fr);
+  }
+}

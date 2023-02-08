@@ -1,0 +1,29 @@
+.error-background {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 40px auto;
+  flex-wrap: wrap-reverse;
+}
+.error-background img {
+  border-bottom-left-radius: 300px;
+  height: 100vh;
+  width: 100%;
+}
+.error-text {
+  padding-left: 180px;
+}
+.error-text h1 {
+  font-size: 120px;
+  color: #cda274;
+}
+.error-text p {
+  font-size: 30px;
+  font-weight: 900;
+}
+@media screen and (max-width: 768px) {
+  .error-text {
+    padding-left: 0px;
+    text-align: center;
+  }
+}

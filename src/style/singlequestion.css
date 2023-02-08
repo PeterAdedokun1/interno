@@ -1,0 +1,32 @@
+.question-btn {
+  color: black;
+}
+.single-heading1 {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  cursor: pointer;
+}
+.single-sub-heading1 {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  cursor: pointer;
+  margin-bottom: 10px;
+}
+.single-sub-heading1 h4 {
+  color: #cda274;
+}
+.accordion-container {
+  margin: 20px;
+}
+.single-heading1 h2 {
+  font-size: 17px;
+}
+.small-text {
+  color: #4d5053;
+}
+
+.rotate {
+  transform: rotate(90deg);
+}

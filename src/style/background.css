@@ -1,0 +1,32 @@
+.section-title{
+text-align: center;
+padding-top: 200px;
+}
+.section-info{
+background-color: white;
+width: fit-content;
+margin: 0 auto;
+padding-top: 50px;
+padding-left: 80px;
+padding-right: 80px;
+border-top-left-radius: 10px;
+border-top-right-radius: 10px;
+}
+.section-info h1{
+    margin-top: -15px;
+}
+.section-info p{
+    font-family: 'Source Sans Pro', sans-serif;
+    color: #4D5053;
+    font-size: 14px;
+}
+@media screen and (max-width: 768px) {
+    .section-info{
+        padding-left: 50px;
+        padding-right: 50px;
+        /* padding-top: 50px; */
+    }
+    .section-info h1{
+        font-size: 25px;
+    }
+}
